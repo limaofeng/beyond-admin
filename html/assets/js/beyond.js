@@ -54,15 +54,6 @@ if (location.pathname != "/index-rtl-fa.html" && location.pathname != "/index-rt
         };
     }
 }
-/*Loading*/
-$(window)
-    .load(function () {
-        setTimeout(function () {
-            $('.loading-container')
-                .addClass('loading-inactive');
-        }, 0);
-    });
-
 
 /*Account Area --> Setting Button*/
 $('#btn-setting')
